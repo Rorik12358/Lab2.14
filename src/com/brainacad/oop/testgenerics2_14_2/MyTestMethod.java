@@ -14,5 +14,15 @@ public class MyTestMethod {
         }
         return count;
     }
-    //Lab 2.14.2
+
+    //Lab 2.14.3
+    public static <T extends Number & Comparable> double calcSum(T[] arr, T maxval) {
+        double summ = 0;
+        for (T el : arr) {
+            if (el.compareTo(maxval) > 0) {
+                summ += el.doubleValue();
+            }
+        }
+        return summ;
+    }
 }

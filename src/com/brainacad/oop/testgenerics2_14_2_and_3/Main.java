@@ -1,4 +1,4 @@
-package com.brainacad.oop.testgenerics2_14_2;
+package com.brainacad.oop.testgenerics2_14_2_and_3;
 
 /**
  * Created by m18 on 14.03.2016.
